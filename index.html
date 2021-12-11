@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>banana speak</title>
+    <style>
+        textarea {
+            width: 50%;
+            height: 10vh;
+            display: block;
+            margin: 1rem;
+            padding: 1rem;
+            border-bottom-left-radius: 1rem;
+            border-top-left-radius: 1rem;
+            border-bottom-right-radius:1rem;
+            border-top-right-radius: 1rem;
+        }
+        p{
+            max-width:600px;
+        }
+    
+
+        #output {
+            border: 1px solid black;
+            height: 10vh;
+            width: 50%;
+            margin: 1rem;
+            padding: 1rem;
+            border-bottom-left-radius: 1rem;
+            border-top-left-radius: 1rem;
+            border-bottom-right-radius:1rem;
+            border-top-right-radius: 1rem;
+        }
+        h1{
+            color: rgb(1, 10, 10);
+        }
+        body{
+            background-color: rgb(142, 230, 241);
+    
+        }
+        button:hover{
+            background-color: rgb(12, 198, 223);
+        }
+        
+    </style>
+</head>
+<center>
+
+<body>
+    <h1> Pirate Banana!!</h1>
+    <textarea id="txt-input"
+        placeholder="put your sentence in English here and we will convert it to banana"></textarea>
+    <button id="btn-translate">Translate</button>
+
+    <div style="font-size: larger;"> Output will come here!!</div>
+    <div id="output"></div>
+    <script src="script.js" type="text/javascript"></script>
+</body>
+<h1>About</h1>
+<p>The magic of this app this "pirate Banana",it will convert our text to anothel lanuguage.It will take our input and calling server for processing(translation) once the sever done is will show output. And if any error in server it will us one alert message!!</p>
+</center>
+
+</html>
